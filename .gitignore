@@ -1,0 +1,4 @@
+.venv_kormo/
+*.pyc
+*.egg-info*
+initialized_models/

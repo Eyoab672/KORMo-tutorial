@@ -1,0 +1,16 @@
+distributed_type: FSDP
+mixed_precision: bf16
+fsdp_config:
+  fsdp_state_dict_type: FULL_STATE_DICT
+  offload_to_cpu: false   
+  save_optimizer_state: true
+  fsdp_sharding_strategy: FULL_SHARD
+  fsdp_auto_wrap_policy: TRANSFORMER_BASED_WRAP
+  fsdp_transformer_layer_cls_to_wrap: DecoderLayer
+  fsdp_activation_checkpointing: false
+  fsdp_backward_prefetch: BACKWARD_PRE
+  fsdp_forward_prefetch: false
+  fsdp_cpu_ram_efficient_loading: false 
+  fsdp_offload_params: false
+  fsdp_sync_module_states: true
+  fsdp_use_orig_params: false

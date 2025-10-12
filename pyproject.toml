@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kormo"
+version = "0.1.0"
+description = "KORMo LLM utilities"
+requires-python = ">=3.9"
+dependencies = [
+    "transformers==4.57.0",
+    "datasets>=4.1.1",
+    "numpy",
+    "jsonlines",
+    "wandb",
+    "bitsandbytes",
+    "accelerate",
+    "orjson",
+    "safetensors",
+    "trl",
+    "wheel",
+    "hf_transfer",
+    "ipywidgets",
+    "ipykernel",
+    "pydantic<2.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["kormo"] 
